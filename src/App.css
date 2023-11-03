@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+#mainCard{
+  min-width:  540px;
+  min-height: 300px;
+  border: 2px solid rgb(251, 219, 219);
+  border-radius: 20px;
+  box-shadow: 10px 10px rgba(255, 0, 0, 0.030);
+}
