@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# DevTown Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project aims to create a responsive and interactive web page that displays a list of products. Each product will include an image, title, description, and price. Users will be able to filter and sort the products based on their attributes (e.g., price, category). Additionally, a user-friendly pagination system will be implemented to navigate through the product list.
 
-In the project directory, you can run:
+## Libraries Used
 
-### `npm start`
+- React
+- react-paginate: ^8.2.0
+- react-router-dom: ^6.18.0
+- react-scripts: 5.0.1
+- react-select: ^5.7.7
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Setup
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+```
+git clone https://github.com/rohitsingh2901/DevTown.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install the dependencies:
 
-### `npm run build`
+```
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+- Display a list of products with images, titles, descriptions, and prices.
+- Allow users to filter products based on attributes (e.g., price, category).
+- Implement sorting functionality for products.
+- Create a user-friendly pagination system for easy navigation.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Demo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A live demo of the Asiignment can be found [here](https://rohitsingh2901.github.io/DevTown/).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Screenshots
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![image](https://github.com/rohitsingh2901/DevTown/assets/80673974/5d3a51bd-d41e-4d37-b60a-901c770f8b6f)
+![image](https://github.com/rohitsingh2901/DevTown/assets/80673974/ed587551-6f15-443f-8db6-fbc1f4805d2c)
+![image](https://github.com/rohitsingh2901/DevTown/assets/80673974/1714b6df-2bef-4ab1-88d2-e901f6f30c4c)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Assignment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project was developed as an assignment for DevTown.
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Rohit Singh
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
